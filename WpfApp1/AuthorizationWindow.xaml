@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApp1.AuthorizationWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Authorized Window" Height="200" Width="300">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Вы авторизованы!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

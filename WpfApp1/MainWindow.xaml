@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Authentication Form" Height="350" Width="525">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label Content="Username:"/>
+            <TextBox x:Name="txtUsername" Margin="0,0,0,10"/>
+            <Label Content="Password:"/>
+            <PasswordBox x:Name="txtPassword" Margin="0,0,0,10"/>
+            <Button Content="Create User" Click="CreateUser_Click"/>
+            <Button Content="Authorize" Click="Authorize_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
